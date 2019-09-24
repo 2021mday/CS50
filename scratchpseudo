@@ -1,2 +1,5 @@
 **CPU Andie Sprite**
    When green flag is clicked
+      Say "Hello!" for 2 seconds
+      Wait 1 second
+      Say "You think you can beat me" for 2 seconds
