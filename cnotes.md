@@ -7,4 +7,4 @@ printf("hello, world\n")
 ```
 
 All printed words are called strings and strings are enclosed "string" <br>
-/n tells computer to start a new line
+\n tells computer to start a new line
