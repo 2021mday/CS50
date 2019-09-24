@@ -3,3 +3,96 @@
       Say "Hello!" for 2 seconds
       Wait 1 second
       Say "You think you can beat me" for 2 seconds
+      Wait 1 second
+      Say "Ready?" for 1.5 seconds
+      Wait 0.75 seconds
+      Say "3" for 0.75 seconds
+      Wait 0.5 seconds
+      Say "2" for 0.75 seconds
+      Wait 0.5 seconds
+      Say "1" for 0.75 seconds
+      Wait 0.5 seconds
+      Say "GO!" for 0.9 seconds
+      Broadcast "go"
+      
+   When green flag is clicked
+      Set CPU score to 0
+      
+   When green flag is clicked
+      Show sprite
+      
+   When I recieve go
+      Loop forever
+         Wait 1.5 to 3.6 seconds
+         Add 1 point to CPU score
+         
+   When I recieve go
+      Loop forever
+         Wait 1 second
+         Go to next costume
+         
+   When I recieve "message 1"
+      Hide sprite
+      
+   When I recieve "message 2"
+      Hide sprite
+      
+   
+**Basketball Sprite**
+   When green flag is clicked
+      Go to coordinates (-199,-142)
+      
+   When I recieve "go"
+      Show sprite
+      
+   When I recieve "go"
+      Loop forever
+         Point the sprite toward the mouse pointer
+         Move 7 steps
+         
+   When I recieve "go"
+      Loop forever
+         If touching Sprite 2
+            Go to coordinate (-199, -142)
+   
+   When I recieve "message 1"
+      Hide sprite
+      
+   When I recieve "message 2"
+      Hide sprite
+      
+   
+**Sprite 1, Top of Hoop**
+   When green flag is clicked
+      Loop forever
+         Show sprite
+   
+   When green flag is clicked
+      Set "User Score" to 0
+      Loop forever
+         If touching "basketball"
+            Add 1 to "Your Score"
+            Wait 1 second
+            
+    When I recieve "message 1"
+      Loop forever
+         Hide sprite
+    
+    When I recieve "message 2"
+      Loop forever
+         Hide sprite
+         
+**Sprite 2, Bottom of the Hoop**
+   When green flag is clicked
+      Loop forever
+         Go to coordinates (35, 104)
+   
+   When green flag is clicked
+      Loop forever
+         Show
+   
+   When I recieve "message 1"
+      Hide sprite
+    
+    When I revieve "message 2"
+      Hide sprite
