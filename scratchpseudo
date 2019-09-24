@@ -96,3 +96,22 @@
     
     When I revieve "message 2"
       Hide sprite
+
+ **Backdrop**
+   When green flag is clicked
+      If "User Score" is less than 21 then
+         Switch backdrop to "Basketball 2" and wait
+         
+   When green flag is clicked
+      If "CPU score" is less than 21 then
+         Switch backdrip to "Basketball 2" and wait
+         
+   When green flag is clicked
+      If "User Score" is equal to 21 then
+         Switch backdrop to "Winning" and wait
+         Broadcast "message 2"
+         
+   When green flag is clicked
+      If "CPU Score" is equal to 21 then
+         Switch to backdrop "Losing" and wait
+           Broadcast "message 1"
