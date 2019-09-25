@@ -52,4 +52,15 @@ else
     print ("x is not less then y\n);
 }
 ```
+In scratch 1 = sign represents equality
+In C, 2 equal signs shows equality
 
+You need to keyword true to create a forever loop becuase you need to ask the computer a question that will always be true and the word true by definition is always true.
+
+The % makes a placeholder
+
+A return value is something that the user wrutes back to the computer
+
+For a loop, you need to know how many times you want to execute the code
+How many times you want tot execute the code
+Then constantly make sure that one does not exceed the other.
