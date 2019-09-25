@@ -64,3 +64,11 @@ A return value is something that the user wrutes back to the computer
 For a loop, you need to know how many times you want to execute the code
 How many times you want tot execute the code
 Then constantly make sure that one does not exceed the other.
+
+
+#include <stdio.h>
+
+int maln(void)
+{
+        printf("hello, world\n");
+}
